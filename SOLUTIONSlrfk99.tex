@@ -77,25 +77,31 @@ and Alice as the column player, using your chosen payoffs.           \hfill{\bf 
 	
 	\item[\textbf{Exercise 4.}]  %%%%%%%  12 MARKS  %%%%%%% 
 	
-	We consider a (matching) market of $k$ sellers and $k$ buyers, where $k$ is an integer, $k>0$. 
-	Each seller sells an item and the prices of the items are initially all zero. Buyer $i$ has valuation $k-i+1$ for the first item and valuation $0$ for every other item, as shown in the following diagram.
-	
-	\vspace*{0.5cm}
-	\begin{tabular}{c r c c c}
-		Buyers & \multicolumn{4}{c}{Valuations (for items $1$ to $k$)} \\
-		\hline
-		$x_1$ & $k,$ & $0,$ & $\ldots,$ & $0$ \\
-		$x_2$ & $k-1,$ & $0,$ & $\ldots,$ & $0$ \\
-		$\vdots$ & & & $\vdots$ \\
-		$x_k$ & $1,$ & $0,$ & $\ldots,$ & $0$ \\
-	\end{tabular}
-	
-	\noindent The sellers find the market-clearing prices using the procedure discussed in the lectures.
 	\begin{enumerate}
-		\item[(a)] What are the prices of the sellers' items ($1^{st}$ item, $2^{nd}$ item, \ldots, $k^{th}$ item) when the market clears? Which buyer gets the $1^{st}$ item and at what price?  \hfill{\bf [3 marks]}\smallskip
-		\item[(b)] Justify your answers to (a).  \hfill{\bf [6 marks]}\smallskip
-		\item[(c)] Which kind of auction does the construction of market-clearing prices procedure implement in this case?  \hfill{\bf [3 marks]}\smallskip
-	\end{enumerate}	
+		\item[(a)] Price of $1^{st}$ item: $k-1$, price of every other item: $0$. Buyer $x_1$ gets the $1^{st}$ item at price $k-1$. 
+		\item[(b)] Using the bipartite graph auction procedure. 
+		In the first round where all prices are zero, 
+		after drawing the preferred-seller graph according to the utilities of the buyers: $u_{ij} = v_{ij} - p_i$, 
+		there is a constricted set in the buyers' set (all buyers). 
+		The neighbourhood of the constricted set is item 1, intuitively every buyer prefers item 1. 
+		Therefore the price of item 1 is increased by 1, to 1. 
+		Every other price remains 0 since it is not in the neighbourhood of a constricted set, 
+		so the minimum price remains 0 and there is no need to update every price by subtracting the minimum from each. 
+		The previous steps are repeated $k-1$ times, and the size of the constricted set in the buyers' set decreases by 1 every round 
+		(round $i$ removes buyer $x_{k-i+1}$ from the constricted set). 
+		In every round, the neighbourhood of the constricted set is item 1, so after every round the price of item 1 increases by 1. 
+		Therefore, after round $i$, the price of item 1 is $i$, and after round $k-1$, the price of item 1 is $k-1$. 
+		In round $k$, after drawing the preferred-seller graph according to the utilities of the buyers: $u_{ij} = v_{ij} - p_i$, 
+		there is a perfect matching where every buyer $x_i$ buys item $i$. 
+		The price of item 1 at this point is $k-1$, and the price of every other item is $0$. 
+		Buyer $x_1$ gets the $1^{st}$ item in the perfect matching since their payoff for this is $1$ ($k-(k-1)$), 
+		and their payoff for every other item is $0$ ($0-0$). 
+		So buyer $x_1$ get the $1^{st}$ item at price $k-1$. 
+		\item[(c)] Second-price sealed-bid auction of a single item. 
+		The buyer with the highest valuation gets the item (item 1), and pays the second highest-valuation. 
+		All other items are fake additional items created in order to model the single-item auction as a bipartite graph auction. 
+	\end{enumerate}
+
 
 \end{enumerate}
 \end{document}
