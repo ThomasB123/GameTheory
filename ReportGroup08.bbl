@@ -1,0 +1,637 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Daskalakis.2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2b96cdb9399787ab044337b8fda799fd}{%
+           family={Daskalakis},
+           familyi={D\bibinitperiod},
+           given={Constantinos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=81b68e33035d0a0d30289d246b1d4fd1}{%
+           family={{Goldberg, Paul, W.}},
+           familyi={G\bibinitperiod}}}%
+        {{hash=1000715b2deb559dd20dad4ea2dfc6dc}{%
+           family={{Papadimitriou, Christos, H.}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{0badf113f8648a76606e3fba665aa7d8}
+      \strng{fullhash}{0badf113f8648a76606e3fba665aa7d8}
+      \strng{bibnamehash}{0badf113f8648a76606e3fba665aa7d8}
+      \strng{authorbibnamehash}{0badf113f8648a76606e3fba665aa7d8}
+      \strng{authornamehash}{0badf113f8648a76606e3fba665aa7d8}
+      \strng{authorfullhash}{0badf113f8648a76606e3fba665aa7d8}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM Journal on Computing}
+      \field{number}{1}
+      \field{title}{The Complexity of Computing a Nash Equilibrium}
+      \field{volume}{39}
+      \field{year}{2009}
+      \field{pages}{195\bibrangedash 259}
+      \range{pages}{65}
+    \endentry
+    \entry{Fabrikant.2004}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9067a47891b55849acb464ee48462308}{%
+           family={Fabrikant},
+           familyi={F\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1000715b2deb559dd20dad4ea2dfc6dc}{%
+           family={{Papadimitriou, Christos, H.}},
+           familyi={P\bibinitperiod}}}%
+        {{hash=1754a40f9d600dea756c1dd1047ce170}{%
+           family={Talwar},
+           familyi={T\bibinitperiod},
+           given={Kunal},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7089d8b9e0e526fead1778d7ec82c0f}
+      \strng{fullhash}{e7089d8b9e0e526fead1778d7ec82c0f}
+      \strng{bibnamehash}{e7089d8b9e0e526fead1778d7ec82c0f}
+      \strng{authorbibnamehash}{e7089d8b9e0e526fead1778d7ec82c0f}
+      \strng{authornamehash}{e7089d8b9e0e526fead1778d7ec82c0f}
+      \strng{authorfullhash}{e7089d8b9e0e526fead1778d7ec82c0f}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the thirty-sixth annual ACM symposium on Theory of computing}
+      \field{title}{The Complexity of Pure Nash Equilibria}
+      \field{year}{2004}
+      \field{pages}{604\bibrangedash 612}
+      \range{pages}{9}
+    \endentry
+    \entry{OsborneMartinJ..2011}{book}{}
+      \name{author}{2}{}{%
+        {{hash=a468baacab404aa5a55717cd0e243e05}{%
+           family={{Osborne, Martin, J.}},
+           familyi={O\bibinitperiod}}}%
+        {{hash=6dd390184a4a0f79f72fd43d5772433b}{%
+           family={Rubinstein},
+           familyi={R\bibinitperiod},
+           given={Ariel},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Massachusetts}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{14f4ee652591b99a385221cc9db72663}
+      \strng{fullhash}{14f4ee652591b99a385221cc9db72663}
+      \strng{bibnamehash}{14f4ee652591b99a385221cc9db72663}
+      \strng{authorbibnamehash}{14f4ee652591b99a385221cc9db72663}
+      \strng{authornamehash}{14f4ee652591b99a385221cc9db72663}
+      \strng{authorfullhash}{14f4ee652591b99a385221cc9db72663}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-262-15041-7}
+      \field{title}{A Course in Game Theory}
+      \field{year}{2011}
+    \endentry
+    \entry{NashJohnF..1950}{article}{}
+      \name{author}{1}{}{%
+        {{hash=79b8be881a186f9787ee1dcf2ddb8691}{%
+           family={{Nash, John, F.}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{79b8be881a186f9787ee1dcf2ddb8691}
+      \strng{fullhash}{79b8be881a186f9787ee1dcf2ddb8691}
+      \strng{bibnamehash}{79b8be881a186f9787ee1dcf2ddb8691}
+      \strng{authorbibnamehash}{79b8be881a186f9787ee1dcf2ddb8691}
+      \strng{authornamehash}{79b8be881a186f9787ee1dcf2ddb8691}
+      \strng{authorfullhash}{79b8be881a186f9787ee1dcf2ddb8691}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceddings of National Academy of Sciences of the United States of America}
+      \field{title}{Equilibrium points in n-person games}
+      \field{volume}{36}
+      \field{year}{1950}
+      \field{pages}{48\bibrangedash 49}
+      \range{pages}{2}
+    \endentry
+    \entry{Wigderson.2019}{book}{}
+      \name{author}{1}{}{%
+        {{hash=94bdc407739d530448ac88956c6c98a5}{%
+           family={Wigderson},
+           familyi={W\bibinitperiod},
+           given={Avi},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University}%
+      }
+      \strng{namehash}{94bdc407739d530448ac88956c6c98a5}
+      \strng{fullhash}{94bdc407739d530448ac88956c6c98a5}
+      \strng{bibnamehash}{94bdc407739d530448ac88956c6c98a5}
+      \strng{authorbibnamehash}{94bdc407739d530448ac88956c6c98a5}
+      \strng{authornamehash}{94bdc407739d530448ac88956c6c98a5}
+      \strng{authorfullhash}{94bdc407739d530448ac88956c6c98a5}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-691-18913-0}
+      \field{title}{Mathematics and Computation: Ideas Revolutionizing Technology and Science}
+      \field{year}{2019}
+    \endentry
+    \entry{Borzechowski.19thSeptember2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=181a9a21a8a00fd3f8c4c90dcc8cb60d}{%
+           family={Borzechowski},
+           familyi={B\bibinitperiod},
+           given={Michaela},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Freien Universitat Berlin}%
+      }
+      \strng{namehash}{181a9a21a8a00fd3f8c4c90dcc8cb60d}
+      \strng{fullhash}{181a9a21a8a00fd3f8c4c90dcc8cb60d}
+      \strng{bibnamehash}{181a9a21a8a00fd3f8c4c90dcc8cb60d}
+      \strng{authorbibnamehash}{181a9a21a8a00fd3f8c4c90dcc8cb60d}
+      \strng{authornamehash}{181a9a21a8a00fd3f8c4c90dcc8cb60d}
+      \strng{authorfullhash}{181a9a21a8a00fd3f8c4c90dcc8cb60d}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Complexity Class Polynomial Local Search (PLS) and PLS-complete problem}
+      \field{type}{phdthesis}
+      \field{year}{2016}
+    \endentry
+    \entry{PapadimitriouChristosH..}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1000715b2deb559dd20dad4ea2dfc6dc}{%
+           family={{Papadimitriou, Christos, H.}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Journal of Computer and System Sciences}%
+      }
+      \strng{namehash}{1000715b2deb559dd20dad4ea2dfc6dc}
+      \strng{fullhash}{1000715b2deb559dd20dad4ea2dfc6dc}
+      \strng{bibnamehash}{1000715b2deb559dd20dad4ea2dfc6dc}
+      \strng{authorbibnamehash}{1000715b2deb559dd20dad4ea2dfc6dc}
+      \strng{authornamehash}{1000715b2deb559dd20dad4ea2dfc6dc}
+      \strng{authorfullhash}{1000715b2deb559dd20dad4ea2dfc6dc}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On the Complexity of the Parity Argument and Other Inefficient Proofs of Existence}
+      \field{year}{1994}
+      \field{dateera}{ce}
+    \endentry
+    \entry{rosenthal1973class}{article}{}
+      \name{author}{1}{}{%
+        {{hash=939a08b52387b6016b7b726f1c2c2e9c}{%
+           family={Rosenthal},
+           familyi={R\bibinitperiod},
+           given={Robert\bibnamedelima W},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{939a08b52387b6016b7b726f1c2c2e9c}
+      \strng{fullhash}{939a08b52387b6016b7b726f1c2c2e9c}
+      \strng{bibnamehash}{939a08b52387b6016b7b726f1c2c2e9c}
+      \strng{authorbibnamehash}{939a08b52387b6016b7b726f1c2c2e9c}
+      \strng{authornamehash}{939a08b52387b6016b7b726f1c2c2e9c}
+      \strng{authorfullhash}{939a08b52387b6016b7b726f1c2c2e9c}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Game Theory}
+      \field{number}{1}
+      \field{title}{A class of games possessing pure-strategy Nash equilibria}
+      \field{volume}{2}
+      \field{year}{1973}
+      \field{pages}{65\bibrangedash 67}
+      \range{pages}{3}
+    \endentry
+    \entry{monderer1996potential}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7c44b0288be1cdbd928bc50643118604}{%
+           family={Monderer},
+           familyi={M\bibinitperiod},
+           given={Dov},
+           giveni={D\bibinitperiod}}}%
+        {{hash=aa2b96ffd25f090ad898c0022f7efa12}{%
+           family={Shapley},
+           familyi={S\bibinitperiod},
+           given={Lloyd\bibnamedelima S},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{59890b00ae9b4401178b99fca026b979}
+      \strng{fullhash}{59890b00ae9b4401178b99fca026b979}
+      \strng{bibnamehash}{59890b00ae9b4401178b99fca026b979}
+      \strng{authorbibnamehash}{59890b00ae9b4401178b99fca026b979}
+      \strng{authornamehash}{59890b00ae9b4401178b99fca026b979}
+      \strng{authorfullhash}{59890b00ae9b4401178b99fca026b979}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Games and economic behavior}
+      \field{number}{1}
+      \field{title}{Potential games}
+      \field{volume}{14}
+      \field{year}{1996}
+      \field{pages}{124\bibrangedash 143}
+      \range{pages}{20}
+    \endentry
+    \entry{local_search_complex}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c0769d0779638585b3f904d87e1aba66}{%
+           family={Schaffer},
+           familyi={S\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4c46d2f3f797a5dedce8a376cb13fe3a}{%
+           family={Yannakakis},
+           familyi={Y\bibinitperiod},
+           given={Mihalis},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f50b94368a78d8e696e7b4f80b608929}
+      \strng{fullhash}{f50b94368a78d8e696e7b4f80b608929}
+      \strng{bibnamehash}{f50b94368a78d8e696e7b4f80b608929}
+      \strng{authorbibnamehash}{f50b94368a78d8e696e7b4f80b608929}
+      \strng{authornamehash}{f50b94368a78d8e696e7b4f80b608929}
+      \strng{authorfullhash}{f50b94368a78d8e696e7b4f80b608929}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM J. Comput.}
+      \field{month}{02}
+      \field{title}{Simple Local Search Problems That are Hard to Solve.}
+      \field{volume}{20}
+      \field{year}{1991}
+      \field{pages}{56\bibrangedash 87}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1137/0220004
+      \endverb
+    \endentry
+    \entry{MyersonR.B..1978}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4be962230f824ab85f12e27f7ae78c42}{%
+           family={{Myerson, R., B.}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4be962230f824ab85f12e27f7ae78c42}
+      \strng{fullhash}{4be962230f824ab85f12e27f7ae78c42}
+      \strng{bibnamehash}{4be962230f824ab85f12e27f7ae78c42}
+      \strng{authorbibnamehash}{4be962230f824ab85f12e27f7ae78c42}
+      \strng{authornamehash}{4be962230f824ab85f12e27f7ae78c42}
+      \strng{authorfullhash}{4be962230f824ab85f12e27f7ae78c42}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Refinements of the Nash equilibrium concept}
+      \field{volume}{International Journal of Game Theory}
+      \field{year}{1978}
+      \field{pages}{73\bibrangedash 80}
+      \range{pages}{8}
+    \endentry
+    \entry{HansenKristofferArnsfelt.2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b726970b78c00e74dbf7fba1e26b3bd4}{%
+           family={{Hansen, Kristoffer, Arnsfelt}},
+           familyi={H\bibinitperiod}}}%
+        {{hash=0b9040012b5e564dd0bf7fcfd92e83fc}{%
+           family={{Lund, Troels, Bjerre}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{df6c0b477aa8ff08afc7aee2bd0268a5}
+      \strng{fullhash}{df6c0b477aa8ff08afc7aee2bd0268a5}
+      \strng{bibnamehash}{df6c0b477aa8ff08afc7aee2bd0268a5}
+      \strng{authorbibnamehash}{df6c0b477aa8ff08afc7aee2bd0268a5}
+      \strng{authornamehash}{df6c0b477aa8ff08afc7aee2bd0268a5}
+      \strng{authorfullhash}{df6c0b477aa8ff08afc7aee2bd0268a5}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Conference on Economics and Computation}
+      \field{title}{Computational Complexity of Proper Equilibrium}
+      \field{year}{2018}
+    \endentry
+    \entry{Daskalakis.2013}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2b96cdb9399787ab044337b8fda799fd}{%
+           family={Daskalakis},
+           familyi={D\bibinitperiod},
+           given={Constantinos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b96cdb9399787ab044337b8fda799fd}
+      \strng{fullhash}{2b96cdb9399787ab044337b8fda799fd}
+      \strng{bibnamehash}{2b96cdb9399787ab044337b8fda799fd}
+      \strng{authorbibnamehash}{2b96cdb9399787ab044337b8fda799fd}
+      \strng{authornamehash}{2b96cdb9399787ab044337b8fda799fd}
+      \strng{authorfullhash}{2b96cdb9399787ab044337b8fda799fd}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Transactions on Algorithms}
+      \field{number}{3}
+      \field{title}{On the Complexity of Approximating a Nash Equilibrium}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 33}
+      \range{pages}{33}
+    \endentry
+    \entry{rubinstein2016settling}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=f822e6b0b306410d7b94a991b72a558b}{%
+           family={Rubinstein},
+           familyi={R\bibinitperiod},
+           given={Aviad},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f822e6b0b306410d7b94a991b72a558b}
+      \strng{fullhash}{f822e6b0b306410d7b94a991b72a558b}
+      \strng{bibnamehash}{f822e6b0b306410d7b94a991b72a558b}
+      \strng{authorbibnamehash}{f822e6b0b306410d7b94a991b72a558b}
+      \strng{authornamehash}{f822e6b0b306410d7b94a991b72a558b}
+      \strng{authorfullhash}{f822e6b0b306410d7b94a991b72a558b}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE 57th Annual Symposium on Foundations of Computer Science (FOCS)}
+      \field{title}{Settling the complexity of computing approximate two-player Nash equilibria}
+      \field{year}{2016}
+      \field{pages}{258\bibrangedash 265}
+      \range{pages}{8}
+    \endentry
+    \entry{Daskalakis.2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2b96cdb9399787ab044337b8fda799fd}{%
+           family={Daskalakis},
+           familyi={D\bibinitperiod},
+           given={Constantinos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1000715b2deb559dd20dad4ea2dfc6dc}{%
+           family={{Papadimitriou, Christos, H.}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe50689710123cd56bc78155456984a9}
+      \strng{fullhash}{fe50689710123cd56bc78155456984a9}
+      \strng{bibnamehash}{fe50689710123cd56bc78155456984a9}
+      \strng{authorbibnamehash}{fe50689710123cd56bc78155456984a9}
+      \strng{authornamehash}{fe50689710123cd56bc78155456984a9}
+      \strng{authorfullhash}{fe50689710123cd56bc78155456984a9}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Theory}
+      \field{title}{Approximate Nash Equilibria in Anonymous Games}
+      \field{volume}{156}
+      \field{year}{2015}
+      \field{pages}{207\bibrangedash 245}
+      \range{pages}{39}
+    \endentry
+    \entry{friedman_learning_nodate}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c35945771c2b974c5423406b5c701050}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Eric\bibnamedelima J},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c35945771c2b974c5423406b5c701050}
+      \strng{fullhash}{c35945771c2b974c5423406b5c701050}
+      \strng{bibnamehash}{c35945771c2b974c5423406b5c701050}
+      \strng{authorbibnamehash}{c35945771c2b974c5423406b5c701050}
+      \strng{authornamehash}{c35945771c2b974c5423406b5c701050}
+      \strng{authorfullhash}{c35945771c2b974c5423406b5c701050}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learning and {Implementation} on the {Internet}}
+      \field{year}{1998}
+      \field{pages}{31}
+      \range{pages}{1}
+    \endentry
+    \entry{beyond_nash}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0fc4f15efae578edf4cffcb04d7689ab}{%
+           family={Halpern},
+           familyi={H\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0fc4f15efae578edf4cffcb04d7689ab}
+      \strng{fullhash}{0fc4f15efae578edf4cffcb04d7689ab}
+      \strng{bibnamehash}{0fc4f15efae578edf4cffcb04d7689ab}
+      \strng{authorbibnamehash}{0fc4f15efae578edf4cffcb04d7689ab}
+      \strng{authornamehash}{0fc4f15efae578edf4cffcb04d7689ab}
+      \strng{authorfullhash}{0fc4f15efae578edf4cffcb04d7689ab}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Beyond {Nash} {Equilibrium}: {Solution} {Concepts} for the 21st {Century} | {SpringerLink}}
+      \field{year}{2011}
+    \endentry
+    \entry{nowe_game_2012}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=047d67d0d2f0d4b86529768aad0cc46c}{%
+           family={Nowe},
+           familyi={N\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod}}}%
+        {{hash=67ad7f5daa3e20ae48acf6094afb9d1e}{%
+           family={Vrancx},
+           familyi={V\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ef2bba46c43c91a7e57e92240285e3af}{%
+           family={De\bibnamedelima Hauwere},
+           familyi={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Yann-Michaël},
+           giveni={Y\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9434b2d7bab0b64642e3825e3d6579d6}
+      \strng{fullhash}{9434b2d7bab0b64642e3825e3d6579d6}
+      \strng{bibnamehash}{9434b2d7bab0b64642e3825e3d6579d6}
+      \strng{authorbibnamehash}{9434b2d7bab0b64642e3825e3d6579d6}
+      \strng{authornamehash}{9434b2d7bab0b64642e3825e3d6579d6}
+      \strng{authorfullhash}{9434b2d7bab0b64642e3825e3d6579d6}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Adaptation, {Learning}, and {Optimization}}
+      \field{isbn}{978-3-642-27645-3}
+      \field{month}{1}
+      \field{note}{Journal Abbreviation: Adaptation, Learning, and Optimization}
+      \field{title}{Game {Theory} and {Multi}-agent {Reinforcement} {Learning}}
+      \field{year}{2012}
+      \field{pages}{30}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/978-3-642-27645-3_14
+      \endverb
+    \endentry
+    \entry{lee_nash_2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cd1109cf2d58955b60663aa3a1593fca}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Euijong},
+           giveni={E\bibinitperiod}}}%
+        {{hash=95d57a6a04a631f0f085b2e14bb188b1}{%
+           family={Seo},
+           familyi={S\bibinitperiod},
+           given={Young-Duk},
+           giveni={Y\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=4c4b83547d5ba753dde32eaeb858cbd7}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Young-Gab},
+           giveni={Y\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3a376d7b627170190854fccc1a9976e2}
+      \strng{fullhash}{3a376d7b627170190854fccc1a9976e2}
+      \strng{bibnamehash}{3a376d7b627170190854fccc1a9976e2}
+      \strng{authorbibnamehash}{3a376d7b627170190854fccc1a9976e2}
+      \strng{authornamehash}{3a376d7b627170190854fccc1a9976e2}
+      \strng{authorfullhash}{3a376d7b627170190854fccc1a9976e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1868-5145}
+      \field{journaltitle}{Journal of Ambient Intelligence and Humanized Computing}
+      \field{month}{6}
+      \field{title}{A {Nash} equilibrium based decision-making method for internet of things}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1007/s12652-019-01367-2
+      \endverb
+    \endentry
+    \entry{braess_paradox_2005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b9e1a759b45ca11808d2dcc9f19ea074}{%
+           family={Braess},
+           familyi={B\bibinitperiod},
+           given={Dietrich},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c0bab0c35e62f61c0107b2f0ece95014}{%
+           family={Nagurney},
+           familyi={N\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9e59d0ea25fb1e5381bf4a4dcdec38bb}{%
+           family={Wakolbinger},
+           familyi={W\bibinitperiod},
+           given={Tina},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{aead8e31de01ca63fc2eadc017d4ce54}
+      \strng{fullhash}{aead8e31de01ca63fc2eadc017d4ce54}
+      \strng{bibnamehash}{aead8e31de01ca63fc2eadc017d4ce54}
+      \strng{authorbibnamehash}{aead8e31de01ca63fc2eadc017d4ce54}
+      \strng{authornamehash}{aead8e31de01ca63fc2eadc017d4ce54}
+      \strng{authorfullhash}{aead8e31de01ca63fc2eadc017d4ce54}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0041-1655, 1526-5447}
+      \field{journaltitle}{Transportation Science}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{On a {Paradox} of {Traffic} {Planning}}
+      \field{volume}{39}
+      \field{year}{2005}
+      \field{pages}{446\bibrangedash 450}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1287/trsc.1050.0127
+      \endverb
+    \endentry
+    \entry{cohen_incentives_2003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=48e49f55c3b1ebfe9cf1954935b19d8d}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Bram},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{48e49f55c3b1ebfe9cf1954935b19d8d}
+      \strng{fullhash}{48e49f55c3b1ebfe9cf1954935b19d8d}
+      \strng{bibnamehash}{48e49f55c3b1ebfe9cf1954935b19d8d}
+      \strng{authorbibnamehash}{48e49f55c3b1ebfe9cf1954935b19d8d}
+      \strng{authornamehash}{48e49f55c3b1ebfe9cf1954935b19d8d}
+      \strng{authorfullhash}{48e49f55c3b1ebfe9cf1954935b19d8d}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Workshop on Economics of PeertoPeer systems}
+      \field{month}{6}
+      \field{title}{Incentives build robustness in {BitTorrent}}
+      \field{volume}{6}
+      \field{year}{2003}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,121 @@
+Podcast
+
+Rory - Intro
+Welcome to Group 8’s podcast, with your host, me, Rory. Today I’m joined by Thomas, Ben, another Ben, Shane, and Oliver. Today we’ll be talking about auctions. The two most common types of auction are English, where everyone keeps increasing their bids until no one else wants to raise higher, and Dutch where the seller keeps lowering the asking bid until someone is willing to pay that price.
+
+
+
+Thomas - First-price sealed-bid
+
+Rory - There are, however, many other types of auctions. Thomas, could you tell us a bit about First Price Sealed bid auctions?
+
+A first-price sealed-bid auction is an auction in which people submit sealed bids and the highest bid wins, as the name suggests. Originally, people would write down their bid and give it to the seller in a sealed envelope. The seller then opened all the envelopes, gave the item to the person who bid the most, and that person paid the amount they wrote down. Today, this method is used to award government contracts to companies, where they each say how much they will charge to do the job, and the best offer wins. First-price sealed-bid auctions have lots of different Nash equilibria, but whatever happens, the player who values the item the most will win every time if everyone acts logically.
+
+Rory - Is this similar to any other kind of auction?
+
+Yes, it’s actually strategically equivalent to the Dutch auctions that you mentioned earlier. If you imagine a seller starting at a high price and gradually lowering that price, you can think of each person’s bid as being the price at which they will indicate that they want to buy the item. That’s why Dutch auctions are sometimes called descending-price auctions, since the seller gradually lowers the price until someone buys the item.
+
+Ben R - Second price sealed bid 
+
+Rory - Thank you Thomas. Now, as well as First Price Sealed bid auctions, Second Price sealed bid auctions are also a thing. Ben Russell, what can you tell us about those?
+
+# Second Price Sealed Bid Auctions
+Second price sealed bid auctions are similar to the previous example but as the name
+suggests have a key difference, the winner of the auction only pays the second highest
+bid. This sounds counter-intuitive however if you've ever used EBay before then you
+have participated in such an auction, with the only difference being you can see the
+current winning bid. This type of auction has a very nice property in that truth-telling
+is a dominant strategy. This means that always bidding the amount that you personally value
+the item at is always the best strategy for you regardless of whether other players over or
+under bid. Such a property makes this a very nice and fair kind of auction to partake in
+as no one can gain an advantage over anyone else by employing a complex strategy. This also produces a very clean and simple pure Nash equilibrium in which all players bid their valuations as since every players action is dominant then this must be a Nash equilibrium as any other bid will give a payoff less than or equal to bidding the valuation.
+
+# Use In The Real World:
+Vickrey Auctions are quite rare in the real world, the notable examples are EBay using a
+slightly modified Vickrey Auction, and an extended version called a Vickrey-Clarke-Groves auction being used in some network routing algorithms in order to model the opportunity cost of using certain nodes. Some reasons Vickrey Auctions being rarely used are presented in "Why are Vickrey Auctions so rare?" (Rothkopf et al, 1990), a major one being bidders being suspicious that the sealed bids may be tampered with by the auctioneer to engineer higher profits.
+
+# Questions:
+
+Could you expand on why truthfulness is a dominant strategy and a nash equilibrium
+Of course! This hinges on the fact that the amount the winner bids does not dictate how much money they spend and their payoff, that is decided by the highest bid of the other players. As we assume all other players bids remain the same when player *i* deviates from their bid such a bid b' can only change whether a player wins or loses not their payoff. So if player i were to increase their bid from their valuation then this can only affect the payoff if it
+changes the outcome of the auction. The same is true if they decrease to below the evaluation.
+
+- **Case 1 Change from lose to win by increasing:** For this to be the case the new bid must be greater than the current greatest bid. This current greatest bid must be greater than player i's evaluation therefore if player i's new bid is the new greatest bid then the paid price will be the old one resulting in a negative payoff thus being worse than bidding the valuation.
+
+- **Case 2 Change from win to lose by decreasing:** For this to happen the new bid must become a losing bid so at least one bid $b_j$ must now be greater than player i's new bid. Since player i's original bid was their valuation and $b_j$ was the second highest bid at the time and was less than the valuation then their original payoff was $v_i - b_j$ and since $b_j < v_i$ then the payoff was greater than 0, however now since they are now losing the auction it is 0 hence no improvement.
+
+Thomas - Could you expand on that Nash equilibria point a bit more Ben, I know that in the first-price sealed-bid auctions there are lots of Nash Equilibria, is that the same here?
+
+Yes, this particular type of auction has many different nash equilibria another example
+is if player 1 bids their valuation and all other players bid 0. In this case if player 1 were to
+increase their bid then they would still win the item at the same price of 0 so a payoff of $v_{1}-0$. If any other player were to increase their valuation then it is either still less than player 1's bid and their payoff is still 0 so no improvement. Or their bid is greater than player 1's and since their valuation is higher than player 1's then they will have to pay more than their valuation and obtain a negative payoff which is clearly worse than 0.
+
+Ben B - All pay auctions
+
+Rory - There are also auctions where not just one person pays, but everyone pays. Ben Beddows, could you tell us more about these please?
+
+All-pay auctions are where every bidder pays what they bid, no matter if they were the highest bidder or not. For second-price all-pay auctions, situations where the players bid the same amount are not a Nash Equilibrium since either player can increase their bid and end up paying less, and profiles where one player bids more than the other are not Nash Equilibria, since the player bidding less can decrease their bid to 0 to end up even, which is better than losing money. The only Nash Equilibria is where one player bids higher than their value of the object, and the other player doesn’t bid.
+
+For first-price all-pay auctions, since the highest bidder must pay their bid instead of the second-highest bid, there does not exist any Nash Equilibria.
+
+
+
+And now a quick word from our sponsor, the Bloemenmarkt auction house; the auction house to get all the Dutch tulips you need!
+
+Shane - Multiunit Auctions
+
+Rory - I’ve heard that another variation is where there isn’t just one item up for auction, but there’s multiple items all up simultaneously. Shane, what can you tell us about these types of auctions?
+
+Multiunit auctions are a variant of the standard auction where instead of only one item being sold, multiple of the same object are sold. There are three main ways in which the price that the winner pays can be determined in a multiunit auction. In each of these, the person who places the highest bid for a particular unit wins that unit. The first is the Discriminatory Auction, which is probably the most intuitive of the three, as in it, the winner simply pays the highest bid made for that particular unit. This makes it analogous to the first-price sealed bid auction mentioned by Thomas earlier. The second is the Uniform Price Auction, in which the winner of each unit pays the highest rejected bid made for any of the units. Finally, there is the Vickrey auction, developed by Canadian economist William Vickrey, one of only four posthumous Nobel prize winners in history (from Wikipedia). In this type of auction, if a player wins k units, then the total they pay for those k units is equal to the sum of the k highest rejected bids made by other players.
+
+Questions to ask:
+In these multiunit auctions, is bidding your true valuation a dominant strategy? (Preferred)
+In the case of a two-unit auction, for Discriminatory and Uniform Price Auctions, the answer is no. In a Discriminatory Auction, you are better off reducing your bid, as long as that bid is still higher than all the others, as you will then pay a lower price. In Uniform Price Auctions, if one of your losing bids is the highest rejected bid across all units, then reducing this bid will reduce the amount you pay for the unit(s) that you won. However, in a Vickrey Auction, bidding your true valuation is a dominant strategy, since the amount you pay for an item is solely determined by the bids of others, changing your bid will either have no effect or result in you no longer winning the unit.
+
+Ben B - Are there any examples of where such a multiunit auction could be used?
+One possible use for such an auction would be in a proposed idea to deal with network congestion where, if n messages are to be sent by n different senders through a channel that has a capacity k less than n, then the k messages with the highest bids are sent, and the senders of those messages are to pay an amount equal to the highest rejected bid (i.e. the (k+1)st highest). It is possible to view this scenario as a Uniform Price Auction, with k units available and n bidders, where the sender of each message “bids” an amount on exactly one unit, and each winner pays an amount equal to the highest rejected bid.
+
+Oliver - Imperfect information
+Rory - All the auctions we’ve discussed so far have been what’s known as perfect information auctions. Oliver, what is different about imperfect information auctions?
+In most auctions for items such as artwork or antiques, each attendee does not know other people’s valuations exactly. This is ignored in the previously discussed auction games but can be modelled using auctions with imperfect information. The values of each agent can either be private or common. Private values are unaffected by any information outside the personal value of an object. Common values are when an unknown true value exists for the object, but each bidder has made a separate personal estimation. Here, knowing another bidder’s valuation can be useful.
+This framework could apply to any mentioned auction, but the most common one to demonstrate is a 2-player first-price sealed-bid auction with private values. This models a situation where bidders know how many other bidders there are and know the range of valuations, but not the others’ valuations exactly. There is no single dominant strategy for this type of game, however it can be shown that bidding half your value is optimal if the other bidder does the same. If the other bidder uses a non-equilibrium strategy, then changing strategy may be required.
+Shane - Why would knowing another bidder’s valuation change your valuation in a ‘common value auction’?
+Each valuation in common value auctions is essentially a test done by each bidder to determine an estimation of the true value of the object. For example, the object could be an oil tract where there is a real amount of oil in the land, but bidders have individually estimated oil reserve size. If I also found out Rory’s estimation, it could indicate if my personal estimation was on the right track, or very far off. This means I could adjust accordingly.
+Can this generalise to n bidders?
+Yes, the maths behind it is surprisingly similar to the 2-bidder situation, and it turns out that bidding (n-1)/n times your valuation leads to an optimal equilibrium. This is only guaranteed to work if all bidders play this strategy, however. This demonstrates an interesting property of first price auctions – with more bidders, you must bid higher, or more aggressively, to win. 
+Rory - Nobel prize and outro
+
+Thanks guys for this brilliant discussion today. I’ve found it very informative and I hope our listeners have too. Auctions are actually very relevant as the winners of last year’s Nobel Prize in Economics developed a new type of auction that managed to account for both common value, that is, the value to everyone, and private value, that is, value to the specific bidder. In each round, bidders make anonymous bids on each item. At the end of each round the highest bid for each item is revealed, and the next round of bidding starts. After seeing the top bids for each item from the last round, the bidders can decide whether to bid higher or withdraw.
+
+Thank you for listening to our podcast, goodbye.
+
+
+Discuss strategy
+Compare to previous ones
+
+Rory - Host
+
+10 minutes total
+
+
+TODO
+Podcast
+    Original research
+        Possibly the 2020 Nobel Prize Economic
+            https://www.youtube.com/watch?v=R_wxk7Ihyok
+            “The winners of last year’s Nobel Prize in Economics developed a new type of auction that managed to account for both common value, that is, the value to everyone, and private value, that is, value to the specific bidder. In each round, bidders make anonymous bids on each item. At the end of each round the highest bid for each item is revealed, and the next round of bidding starts. After seeing the top bids for each item from the last round, the bidders can decide whether to bid higher or withdraw”
+        
+    Sort out who ask which questions
+    Jingle?
+    Real life
+        Not original academic research, but will certainly help
+    Intro
+        Rory to make it less dry
+        Jokes about Bargain hunt
+        Auction
+Report
+    Reductions
+    Make flow better
+    Make consistent style
+    Improve content where we can
+    Introduction
