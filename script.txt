@@ -59,14 +59,15 @@ All-pay auctions are where every bidder pays what they bid, no matter if they we
 For first-price all-pay auctions, since the highest bidder must pay their bid instead of the second-highest bid, there does not exist any Nash Equilibria.
 
 
+Hey Shane, did you know that the sponsor of this podcast is the Bloemenmarkt auction house; the auction house to get all the Dutch tulips you need!
 
-And now a quick word from our sponsor, the Bloemenmarkt auction house; the auction house to get all the Dutch tulips you need!
+Shane - Thanks Ben, now I know where I’ll get my next order of tulips!
 
 Shane - Multiunit Auctions
 
 Rory - I’ve heard that another variation is where there isn’t just one item up for auction, but there’s multiple items all up simultaneously. Shane, what can you tell us about these types of auctions?
 
-Multiunit auctions are a variant of the standard auction where instead of only one item being sold, multiple of the same object are sold. There are three main ways in which the price that the winner pays can be determined in a multiunit auction. In each of these, the person who places the highest bid for a particular unit wins that unit. The first is the Discriminatory Auction, which is probably the most intuitive of the three, as in it, the winner simply pays the highest bid made for that particular unit. This makes it analogous to the first-price sealed bid auction mentioned by Thomas earlier. The second is the Uniform Price Auction, in which the winner of each unit pays the highest rejected bid made for any of the units. Finally, there is the Vickrey auction, developed by Canadian economist William Vickrey, one of only four posthumous Nobel prize winners in history (from Wikipedia). In this type of auction, if a player wins k units, then the total they pay for those k units is equal to the sum of the k highest rejected bids made by other players.
+Multiunit auctions are a variant of the standard auction where instead of only one item being sold, multiple of the same object are sold. There are three main ways in which the price that the winner pays can be determined in a multiunit auction. In each of these, the person who places the highest bid for a particular unit wins that unit. The first is the Discriminatory Auction, which is probably the most intuitive of the three, as in it, the winner simply pays the highest bid made for that particular unit. This makes it analogous to the first-price sealed bid auction mentioned by Thomas earlier. The second is the Uniform Price Auction, in which the winner of each unit pays the highest rejected bid made for any of the units. Finally, there is the Vickrey auction, developed by Canadian economist William Vickrey, who, according to an NBC News article (from 2011), sadly died before he was able to receive his Nobel Prize for Economics. [one of only four posthumous Nobel prize winners in history (from Wikipedia)]. In this type of auction, if a player wins k units, then the total they pay for those k units is equal to the sum of the k highest rejected bids made by other players.
 
 Questions to ask:
 In these multiunit auctions, is bidding your true valuation a dominant strategy? (Preferred)
@@ -119,3 +120,6 @@ Report
     Make consistent style
     Improve content where we can
     Introduction
+
+
+Introduction auction sounds ‘by 5s to 50’ by alphahog on freesound.org

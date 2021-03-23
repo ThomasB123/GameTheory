@@ -607,6 +607,38 @@
       \verb 10.1287/trsc.1050.0127
       \endverb
     \endentry
+    \entry{alexrod}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5806c3a1826ab7800a84dc8c5a4fb566}{%
+           family={Axelrod},
+           familyi={A\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=46d4874427c3de9e17b0fb6158779047}{%
+           family={Hamilton},
+           familyi={H\bibinitperiod},
+           given={W.\bibnamedelimi D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Basic Books}%
+      }
+      \strng{namehash}{914ace7ff560eb7c1246704f20bf3e92}
+      \strng{fullhash}{914ace7ff560eb7c1246704f20bf3e92}
+      \strng{bibnamehash}{914ace7ff560eb7c1246704f20bf3e92}
+      \strng{authorbibnamehash}{914ace7ff560eb7c1246704f20bf3e92}
+      \strng{authornamehash}{914ace7ff560eb7c1246704f20bf3e92}
+      \strng{authorfullhash}{914ace7ff560eb7c1246704f20bf3e92}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The evolution of cooperation}
+      \field{year}{1984}
+    \endentry
     \entry{cohen_incentives_2003}{article}{}
       \name{author}{1}{}{%
         {{hash=48e49f55c3b1ebfe9cf1954935b19d8d}{%
