@@ -1,6 +1,6 @@
 
 \documentclass{article}
-\usepackage{multirow, graphicx, amsfonts, amsmath}
+\usepackage{multirow, graphicx, amsfonts, amsmath, forest}
 
 \addtolength{\oddsidemargin}{-.875in}
 	\addtolength{\evensidemargin}{-.375in}
@@ -28,9 +28,33 @@
 	\end{itemize}
 	Consider also the mixed strategy profile $A$ where each of the tasks is assigned to all machines equiprobably (i.e. with probability $1/m$). 
 	\begin{enumerate}
-		\item[(a)] Calculate the ratio $cost(A)/cost(OPT)$ in the special case where $m=2$.  \hfill{\bf [3 marks]}\smallskip
-		\item[(b)] Calculate the ratio $cost(A)/cost(OPT)$ in the special case where $m=3$.  \hfill{\bf [3 marks]}\smallskip
-		\item[(c)] Discuss what this ratio is for arbitrary $m$. What does this imply about the Price of Anarchy on identical machines for mixed Nash equilibria?  \hfill{\bf [5 marks]}\smallskip
+		\item[(a)] Calculate the ratio $cost(A)/cost(OPT)$ in the special case where $m=2$.
+		\begin{equation*}
+			cost(A) = \mathbb{E}[\max_{j \in [m]}{(\ell_j)}] = \frac{1}{4}(1 \cdot 2 + 2 \cdot 2) = 1.5
+		\end{equation*}
+		\begin{equation*}
+			cost(OPT) = 1
+		\end{equation*}
+		\begin{equation*}
+			cost(A)/cost(OPT) = 1.5/1 = 1.5
+		\end{equation*}
+		\hfill{\bf [3 marks]}\smallskip 
+		\item[(b)] Calculate the ratio $cost(A)/cost(OPT)$ in the special case where $m=3$.
+		\begin{equation*}
+			cost(A) = \mathbb{E}[\max_{j \in [m]}{(\ell_j)}] = \frac{1}{27}(1 \cdot 6 + 2 \cdot 18 + 3 \cdot 3) = 1.\dot{8}
+		\end{equation*}
+		\begin{equation*}
+			cost(OPT) = 1
+		\end{equation*}
+		\begin{equation*}
+			cost(A)/cost(OPT) = 1.\dot{8}/1 = 1.\dot{8}
+		\end{equation*}
+		\hfill{\bf [3 marks]}\smallskip
+		\item[(c)] Discuss what this ratio is for arbitrary $m$. What does this imply about the Price of Anarchy on identical machines for mixed Nash equilibria?
+		For arbitrary $m$, this ratio is equal to the social cost of the mixed strategy profile $A$ ($cost(A)$) since the optimal social cost ($cost(OPT)$) is always $1$ for any $m$. 
+		?????
+		This implies that the Price of Anarchy on identical machines for mixed Nash equilibria depends only on the social cost of the increases as the number of machines increases. 
+		\hfill{\bf [5 marks]}\smallskip
 	\end{enumerate}
 	\vspace*{0.8cm}
 	
@@ -45,32 +69,64 @@
 	\end{itemize}
 	The seller's expected revenue $R$ is the expectation of the second highest value. 
 	\begin{itemize}
-		\item[(a)] What is the value that $R$ is approaching when $n$ is very large? \hfill{\bf [1 marks]}\smallskip
-		\item[(b)] Justify your answer by taking the limit. \hfill{\bf [9 marks]}\smallskip
+		\item[(a)] $r$
+		\item[(b)]
+		\begin{equation*}
+			\begin{split}
+				R 
+				& = 1 \cdot (\frac{1}{2})^n + r \cdot (1-(\frac{1}{2})^n) \\
+				therefore \quad \lim_{n \to \infty} R
+				& = 1 \cdot (\lim_{n \to \infty}(\frac{1}{2})^n) + r \cdot (1-(\lim_{n \to \infty}(\frac{1}{2})^n)) \\
+				& = 1 \cdot 0 + r \cdot (1-0), \quad since \quad \lim_{n \to \infty}(\frac{1}{2})^n = \lim_{x \to \infty}(\frac{1}{x}) = 0 \\
+				& = 0 + r \cdot 1 \\
+				& = 0 + r \\
+				& = r 
+			\end{split}
+		\end{equation*}
 	\end{itemize}
-
-	\newpage
-
 
 
 
 	\item[\textbf{Exercise 3.}]   %%%%%%%  15 MARKS  %%%%%%% 
 
-Mary and Alice are buying items for Sunday lunch. Mary buys either chicken $(C)$ or beef $(B)$ for the main course and Alice buys either juice $(J)$ 
-or wine $(W)$. Both people prefer wine with beef and juice with chicken. The opposite alternatives are equally displeasing.
-However, Mary prefers beef over chicken, while Alice prefers chicken over beef.
+	Mary and Alice are buying items for Sunday lunch. Mary buys either chicken $(C)$ or beef $(B)$ for the main course and Alice buys either juice $(J)$ 
+	or wine $(W)$. Both people prefer wine with beef and juice with chicken. The opposite alternatives are equally displeasing.
+	However, Mary prefers beef over chicken, while Alice prefers chicken over beef.
 
-We assume that Mary buys first and then tells Alice what she bought,
-so when Alice makes her decision, she knows if the main course is beef or chicken.
+	We assume that Mary buys first and then tells Alice what she bought,
+	so when Alice makes her decision, she knows if the main course is beef or chicken.
 
-\begin{enumerate}
-\item[(a)] Express the above preferences as payoffs by using numbers\\(e.g.
- $u_M(B,W) = 2$, $u_A(B,W) = \ldots$  etc.)               \hfill{\bf [2 marks]}\smallskip
-\item[(b)] Write down a bimatrix game with Mary as the row player 
-and Alice as the column player, using your chosen payoffs.           \hfill{\bf [4 marks]}\smallskip
-\item[(c)] Write down a game tree representing this game as an extended game.  \hfill{\bf [4 marks]}\smallskip
-\item[(d)] Find a solution for the extended game using backward induction.\\Describe your steps.  \hfill{\bf [5 marks]}\smallskip
-\end{enumerate}
+	\begin{enumerate}
+		\item[(a)]
+		$u_M(C,J) = 1$, $u_A(C,J) = 2$, $u_M(C,W) = -2$, $u_A(C,W) = -1$, 
+		$u_M(B,J) = -1$, $u_A(B,J) = -2$, $u_M(B,W) = 2$, $u_A(B,W) = 1$
+		\item[(b)]
+		$A = \begin{bmatrix}
+			1 & -2 \\
+			-1 & 2
+		\end{bmatrix}$ \quad
+		$B = \begin{bmatrix}
+			2 & -1 \\
+			-2 & 1
+		\end{bmatrix}$
+		\item[(c)].
+		\begin{center}
+			\begin{forest}
+				for tree={ l sep=30pt, s sep=30pt}
+				[, circle, draw
+					[, circle, draw, fill, edge label={node[midway,left] {Chicken }}
+					[{1, 2},edge label={node[midway,left] {Juice }} ]
+					[{-2, -1},edge label={node[midway,right] {Wine }} ]
+					]
+					[, circle, draw, fill, edge label={node[midway,right] {Beef }}
+					[{-1, -2},edge label={node[midway,left] {Juice }} ]
+					[{2, 1},edge label={node[midway,right] {Wine }} ]
+					]
+				]
+			\end{forest}
+		\end{center}
+		\item[(d)] Find a solution for the extended game using backward induction.\\Describe your steps.  \hfill{\bf [5 marks]}\smallskip
+	\end{enumerate}
 	\vspace*{0.8cm}
 
 
