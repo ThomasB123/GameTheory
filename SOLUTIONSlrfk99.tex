@@ -1,34 +1,28 @@
 
 \documentclass{article}
-\usepackage{multirow, graphicx, amsfonts, amsmath, forest}
+\usepackage{multirow, graphicx, amsfonts, amsmath, istgame}
 
 \addtolength{\oddsidemargin}{-.875in}
-	\addtolength{\evensidemargin}{-.375in}
-	\addtolength{\textwidth}{1.55in}
+\addtolength{\evensidemargin}{-.375in}
+\addtolength{\textwidth}{1.55in}
 
-	\addtolength{\topmargin}{-.375in}
-	\addtolength{\textheight}{1.75in}
+\addtolength{\topmargin}{-.375in}
+\addtolength{\textheight}{1.75in}
 
 \begin{document}
 
 \begin{center}
-	\LARGE{Algorithmic Game Theory Summative Assignment -- Individual Component}\\[0.1cm]
-	\Large{lrfk99}\\[0.1cm]
+	\LARGE{Algorithmic Game Theory Summative Assignment \\Individual Component}\\[0.1cm]
+	\Large{LRFK99}\\[0.1cm]
 	2021\\[0.5cm]
 \end{center}
 
 \begin{enumerate}
 	
-	\item[\textbf{Exercise 1.}]   %%%%%%%  11 MARKS  %%%%%%% 
+	\item[\textbf{Exercise 1.}]   %%%%%%%  11 MARKS  %%%%%%%
 	
-	Consider the following instance of the load balancing game where the number of tasks is equal to the number of machines, and in particular we have:
-	\begin{itemize}
-		\item $m$ identical machines $M_1, M_2, \dots, M_m$ (all of speed 1),
-		\item $m$ identical tasks $w_1 = w_2 = \dots = w_m = 1$.
-	\end{itemize}
-	Consider also the mixed strategy profile $A$ where each of the tasks is assigned to all machines equiprobably (i.e. with probability $1/m$). 
 	\begin{enumerate}
-		\item[(a)] Calculate the ratio $cost(A)/cost(OPT)$ in the special case where $m=2$.
+		\item[(a)]
 		\begin{equation*}
 			cost(A) = \mathbb{E}[\max_{j \in [m]}{(\ell_j)}] = \frac{1}{4}(1 \cdot 2 + 2 \cdot 2) = 1.5
 		\end{equation*}
@@ -38,8 +32,7 @@
 		\begin{equation*}
 			cost(A)/cost(OPT) = 1.5/1 = 1.5
 		\end{equation*}
-		\hfill{\bf [3 marks]}\smallskip 
-		\item[(b)] Calculate the ratio $cost(A)/cost(OPT)$ in the special case where $m=3$.
+		\item[(b)]
 		\begin{equation*}
 			cost(A) = \mathbb{E}[\max_{j \in [m]}{(\ell_j)}] = \frac{1}{27}(1 \cdot 6 + 2 \cdot 18 + 3 \cdot 3) = 1.\dot{8}
 		\end{equation*}
@@ -49,25 +42,18 @@
 		\begin{equation*}
 			cost(A)/cost(OPT) = 1.\dot{8}/1 = 1.\dot{8}
 		\end{equation*}
-		\hfill{\bf [3 marks]}\smallskip
-		\item[(c)] Discuss what this ratio is for arbitrary $m$. What does this imply about the Price of Anarchy on identical machines for mixed Nash equilibria?
-		For arbitrary $m$, this ratio is equal to the social cost of the mixed strategy profile $A$ ($cost(A)$) since the optimal social cost ($cost(OPT)$) is always $1$ for any $m$. 
-		?????
-		This implies that the Price of Anarchy on identical machines for mixed Nash equilibria depends only on the social cost of the increases as the number of machines increases. 
-		\hfill{\bf [5 marks]}\smallskip
+		\item[(c)]
+		For arbitrary $m$, this ratio is the Price of Anarchy, 
+		and it is equal to the social cost of the mixed strategy profile $A$ ($cost(A)$) since the optimal social cost ($cost(OPT)$) is always $1$ for any $m$. 
+		Therefore the ratio depends only on the social cost of the mixed strategy, which increases logarithmically as $m$ increases. 
+
+		This implies that the Price of Anarchy on identical machines for mixed Nash equilibria is $O(\frac{\log m}{\log \log m})$, 
+		it increases logarithmically as the number of machines and tasks increase. 
 	\end{enumerate}
-	\vspace*{0.8cm}
 	
 
 	\item[\textbf{Exercise 2.}]  %%%%%%%  10 MARKS  %%%%%%% 
 
-	We consider a second-price sealed-bid auction where there are $n$ bidders who bid as follows:
-	\begin{itemize}
-		\item Bidders 1 up to $n-1$ bid either 1 dollar or $r > 1$ dollars equiprobably and
-		independently of the rest.
-		\item Bidder $n$ bids $h$ dollars, where $h > r$.
-	\end{itemize}
-	The seller's expected revenue $R$ is the expectation of the second highest value. 
 	\begin{itemize}
 		\item[(a)] $r$
 		\item[(b)]
@@ -76,6 +62,7 @@
 				R 
 				& = 1 \cdot (\frac{1}{2})^n + r \cdot (1-(\frac{1}{2})^n) \\
 				therefore \quad \lim_{n \to \infty} R
+				& = \lim_{n \to \infty} [1 \cdot (\frac{1}{2})^n + r \cdot (1-(\frac{1}{2})^n)] \\
 				& = 1 \cdot (\lim_{n \to \infty}(\frac{1}{2})^n) + r \cdot (1-(\lim_{n \to \infty}(\frac{1}{2})^n)) \\
 				& = 1 \cdot 0 + r \cdot (1-0), \quad since \quad \lim_{n \to \infty}(\frac{1}{2})^n = \lim_{x \to \infty}(\frac{1}{x}) = 0 \\
 				& = 0 + r \cdot 1 \\
@@ -86,19 +73,11 @@
 	\end{itemize}
 
 
-
-	\item[\textbf{Exercise 3.}]   %%%%%%%  15 MARKS  %%%%%%% 
-
-	Mary and Alice are buying items for Sunday lunch. Mary buys either chicken $(C)$ or beef $(B)$ for the main course and Alice buys either juice $(J)$ 
-	or wine $(W)$. Both people prefer wine with beef and juice with chicken. The opposite alternatives are equally displeasing.
-	However, Mary prefers beef over chicken, while Alice prefers chicken over beef.
-
-	We assume that Mary buys first and then tells Alice what she bought,
-	so when Alice makes her decision, she knows if the main course is beef or chicken.
-
+	\item[\textbf{Exercise 3.}]   %%%%%%%  15 MARKS  %%%%%%%
+	
 	\begin{enumerate}
 		\item[(a)]
-		$u_M(C,J) = 1$, $u_A(C,J) = 2$, $u_M(C,W) = -2$, $u_A(C,W) = -1$, 
+		$u_M(C,J) = 1$, $u_A(C,J) = 2$, $u_M(C,W) = -2$, $u_A(C,W) = -1$, \\
 		$u_M(B,J) = -1$, $u_A(B,J) = -2$, $u_M(B,W) = 2$, $u_A(B,W) = 1$
 		\item[(b)]
 		$A = \begin{bmatrix}
@@ -109,26 +88,32 @@
 			2 & -1 \\
 			-2 & 1
 		\end{bmatrix}$
-		\item[(c)].
+		\item[(c)]\textit{}
 		\begin{center}
-			\begin{forest}
-				for tree={ l sep=30pt, s sep=30pt}
-				[, circle, draw
-					[, circle, draw, fill, edge label={node[midway,left] {Chicken }}
-					[{1, 2},edge label={node[midway,left] {Juice }} ]
-					[{-2, -1},edge label={node[midway,right] {Wine }} ]
-					]
-					[, circle, draw, fill, edge label={node[midway,right] {Beef }}
-					[{-1, -2},edge label={node[midway,left] {Juice }} ]
-					[{2, 1},edge label={node[midway,right] {Wine }} ]
-					]
-				]
-			\end{forest}
+			\begin{istgame}
+				\xtdistance{20mm}{60mm}
+				\istroot(0)[chance node]{Mary}
+				\istb{Chicken}[al]
+				\istb{Beef}[ar]
+				\endist
+				\xtdistance{20mm}{30mm}
+				\istroot(A)(0-1)<150>{Alice}
+				\istb{Juice}[al]{1,2}
+				\istb{Wine}[ar]{-2,-1}
+				\endist
+				\istroot(B)(0-2)<30>{Alice}
+				\istb{Juice}[al]{-1,-2}
+				\istb{Wine}[ar]{2,1}
+				\endist
+			\end{istgame}
 		\end{center}
-		\item[(d)] Find a solution for the extended game using backward induction.\\Describe your steps.  \hfill{\bf [5 marks]}\smallskip
+		\item[(d)]
+		Mary will buy beef and Alice will subsequently buy wine. \\
+		Mary can reason that if she buys beef then Alice will buy wine, because doing so is better for her than buying juice. \\
+		Given that Alice will respond to beef in this way, Mary is better off buying beef. \\
+		If Mary were to buy chicken then she can reason that Alice would buy juice because doing so is better for her than buying wine, 
+		this results in a payoff of $1$ for Mary, which is less than the payoff of $2$ she will get if she buys beef.
 	\end{enumerate}
-	\vspace*{0.8cm}
-
 
 	
 	\item[\textbf{Exercise 4.}]  %%%%%%%  12 MARKS  %%%%%%% 
@@ -142,21 +127,21 @@
 		The neighbourhood of the constricted set is item 1, intuitively every buyer prefers item 1. 
 		Therefore the price of item 1 is increased by 1, to 1. 
 		Every other price remains 0 since it is not in the neighbourhood of a constricted set, 
-		so the minimum price remains 0 and there is no need to update every price by subtracting the minimum from each. 
+		so the minimum price remains 0 and there is no need to update every price by subtracting the minimum from each. \\
 		The previous steps are repeated $k-1$ times, and the size of the constricted set in the buyers' set decreases by 1 every round 
 		(round $i$ removes buyer $x_{k-i+1}$ from the constricted set). 
 		In every round, the neighbourhood of the constricted set is item 1, so after every round the price of item 1 increases by 1. 
 		Therefore, after round $i$, the price of item 1 is $i$, and after round $k-1$, the price of item 1 is $k-1$. 
 		In round $k$, after drawing the preferred-seller graph according to the utilities of the buyers: $u_{ij} = v_{ij} - p_i$, 
 		there is a perfect matching where every buyer $x_i$ buys item $i$. 
-		The price of item 1 at this point is $k-1$, and the price of every other item is $0$. 
-		Buyer $x_1$ gets the $1^{st}$ item in the perfect matching since their payoff for this is $1$ ($k-(k-1)$), 
-		and their payoff for every other item is $0$ ($0-0$). 
+		The price of item 1 at this point is $k-1$, and the price of every other item is $0$. \\
+		Buyer $x_1$ gets the $1^{st}$ item in the perfect matching since their payoff for this is $k-(k-1)=1$, 
+		and their payoff for every other item is $0-0=0$. 
 		So buyer $x_1$ get the $1^{st}$ item at price $k-1$. 
-		\item[(c)] Second-price sealed-bid auction of a single item.  
+		\item[(c)] Second-price sealed-bid auction of a single item. 
+		Where all other items are fake additional items created in order to model the single-item auction as a bipartite graph auction. 
 		The dominant strategy of all buyers is to bid truthfully, 
 		so the buyer with the highest valuation gets the item (item 1), and pays the second highest-valuation. 
-		All other items are fake additional items created in order to model the single-item auction as a bipartite graph auction. 
 	\end{enumerate}
 
 
