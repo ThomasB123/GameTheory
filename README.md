@@ -10,6 +10,13 @@ This coursework involved:
   - Podcast on auctions (25%)
 
 
-See `AGTassignmant-20-21.pdf` for details of the individual component.
+See `SOLUTIONSlrfk99.pdf` for individual answers.
 
-See `AGTassignmant-20-21-GROUP.pdf` for details of the group component.
+See `ReportGroup08.pdf` for the group report.
+
+See `PodcastGroup08.mp3` for the group podcast.
+
+
+See `AGTassignment-20-21.pdf` for details of the individual component.
+
+See `AGTassignment-20-21-GROUP.pdf` for details of the group component.
